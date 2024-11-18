@@ -1,0 +1,27 @@
+[
+    {
+        "data": {
+            "country": "US",
+            "currency": "USD",
+            "estimateCurrency": "USD",
+            "exchange": "NASDAQ NMS - GLOBAL MARKET",
+            "finnhubIndustry": "Media",
+            "ipo": "2004-08-19",
+            "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
+            "marketCapitalization": 2119197.723465,
+            "name": "Alphabet Inc",
+            "phone": "16502530000",
+            "shareOutstanding": 12241,
+            "ticker": "GOOGL",
+            "weburl": "https://abc.xyz/",
+            "c": 173.89,
+            "d": -3.46,
+            "dp": -1.9509,
+            "h": 175.88,
+            "l": 172.745,
+            "o": 175.64,
+            "pc": 177.35,
+            "t": 1731877200
+        }
+    }
+]

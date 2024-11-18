@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %} 
+
+{% if ticker %}
+    {{ ticker }}
+{% endif %}
+
+{% if data %}
+    {% if data.error %}
+        <h2>{{ data.error }}</h2>
+    {% else  %}
+        <h1>{{ data.name }}</h1><br/>
+        Current: ${{ data.c }}<br/>
+        High: ${{ data.h }}<br/>
+        Low: ${{ data.l }}<br/>
+        Open: ${{ data.o }}<br/>
+        Previous Close: ${{ data.pc }}<br/>
+        Change: ${{ data.d }}<br/>
+        Market Cap: ${{ data.marketCapitalization }}<br/>
+
+    {% endif %}
+{% endif %}
+
+{% endblock %}
